@@ -5,6 +5,8 @@ A Human Resources Management System built with **PHP + MySQL** and styled with *
 This project provides an easy-to-use interface for managing employees, attendance, payroll, and leave requests.
 
 ---
+<img width="1856" height="883" alt="image" src="https://github.com/user-attachments/assets/47a6539e-c397-4ae3-b67a-8dd14bb166ee" />
+
 
 ##  Features
 - **Employee Management**: Add, edit, and delete employees.  
