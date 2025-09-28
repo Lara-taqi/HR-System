@@ -1,0 +1,121 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto; 
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  overflow-y: auto; 
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 1rem;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  overflow-y: auto; 
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.navbar {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.gradient-custom {
+background: #6a11cb;
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+.logo{
+height: 200px;
+width: auto;
+object-fit: contain;
+margin-bottom: 1rem;
+}
+.card{ 
+background: rgba(246, 244, 244, 0.15); 
+border-radius: 1rem;
+backdrop-filter: blur(10px); 
+-webkit-backdrop-filter: blur(10px); 
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+color: #fff; 
+}
+.forget{
+text-decoration: none !important;
+color: black !important;
+}
+.emp_info {
+    display: flex;
+    flex-wrap: wrap;      
+    margin-top: 10px;
+}
+
+.emp_info .form-outline {
+    flex: 1 1 100px;      
+    min-width: 100px;    
+}
+
+.formstyle{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pie {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 50%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  background: conic-gradient(
+    #ffc107 19%,  
+    #2196f3 0      
+  );
+  position: relative;
+}
+
+.htmlstyle,
+.cssstyle {
+  position: absolute;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.htmlstyle {
+  top: 25%;    
+  left: 70%;  
+  transform: translate(-50%, -50%);
+}
+
+.cssstyle {
+  top: 70%;    
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
