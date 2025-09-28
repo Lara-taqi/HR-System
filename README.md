@@ -30,4 +30,4 @@ Follow these steps to set up the HR System on your local machine:
 1. **Download or Clone the Repository** 
 Clone the project from GitHub:
    ```bash
-   git clone https://github.com/username/hr-system.git
+   git clone https://github.com/Lara-taqi/hr-system.git
