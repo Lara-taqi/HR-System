@@ -1,4 +1,4 @@
-#  HR System
+#  HR System ..  you can found it in master branch 
 
 ## Description
 A Human Resources Management System built with **PHP + MySQL** and styled with **Bootstrap**.  
